@@ -1,0 +1,49 @@
+services:
+
+    # PHP service
+    app:
+        build: .
+        container_name: php-app
+        working_dir: /srv/try
+        volumes:
+            - ./:/srv
+        networks:
+            - app-network
+        ports:
+            - "9000:9000"
+        depends_on:
+            -   db
+            -   nginx
+
+
+    # Mariadb database service
+    db:
+        image: mariadb
+        container_name: mariadb
+        ports:
+            - "3306:3306"
+        environment:
+            MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+            MYSQL_DATABASE: ${DB_DATABASE}
+            MYSQL_USER: ${DB_USERNAME}
+            MYSQL_PASSWORD: ${DB_PASSWORD}
+        env_file:
+            - ./.env
+        networks:
+            - app-network
+
+    # Nginx service
+    nginx:
+        image: nginx:alpine
+        container_name: php-nginx
+        ports:
+            - 8000:80
+        volumes:
+            - ./:/srv
+            - ./nginx/conf.d/:/etc/nginx/conf.d/
+        networks:
+            - app-network
+
+networks:
+    app-network:
+        driver: bridge
