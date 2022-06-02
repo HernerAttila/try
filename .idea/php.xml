@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/try/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/try/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/try/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/try/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/try/vendor/composer" />
+      <path value="$PROJECT_DIR$/try/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/try/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/try/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/try/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/try/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/try/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/try/vendor/symfony/flex" />
+    </include_path>
+  </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1">
     <option name="suggestChangeDefaultLanguageLevel" value="false" />
   </component>
